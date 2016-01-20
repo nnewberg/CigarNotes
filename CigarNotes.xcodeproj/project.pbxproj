@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A1518751990733500F0CBCE /* FiveStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1518721990733500F0CBCE /* FiveStarView.m */; };
+		6A1518761990733500F0CBCE /* StarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1518741990733500F0CBCE /* StarButton.m */; };
+		6AAD7D521991466800A10EB2 /* ScoreTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD7D511991466800A10EB2 /* ScoreTextField.m */; };
+		6ABAA8FA1990108400C5AF57 /* CigarNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAA8F91990108400C5AF57 /* CigarNoteViewController.m */; };
+		6ABAA8FD1990225B00C5AF57 /* InfoLabelField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAA8FC1990225B00C5AF57 /* InfoLabelField.m */; };
+		6AD4EC91198AFF9D00BFFAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD4EC90198AFF9D00BFFAA6 /* Foundation.framework */; };
+		6AD4EC93198AFF9D00BFFAA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD4EC92198AFF9D00BFFAA6 /* CoreGraphics.framework */; };
+		6AD4EC95198AFF9D00BFFAA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD4EC94198AFF9D00BFFAA6 /* UIKit.framework */; };
+		6AD4EC9B198AFF9D00BFFAA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AD4EC99198AFF9D00BFFAA6 /* InfoPlist.strings */; };
+		6AD4EC9D198AFF9D00BFFAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4EC9C198AFF9D00BFFAA6 /* main.m */; };
+		6AD4ECA1198AFF9D00BFFAA6 /* CigarNoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4ECA0198AFF9D00BFFAA6 /* CigarNoteAppDelegate.m */; };
+		6AD4ECA4198AFF9D00BFFAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD4ECA2198AFF9D00BFFAA6 /* Main.storyboard */; };
+		6AD4ECA9198AFF9D00BFFAA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD4ECA8198AFF9D00BFFAA6 /* Images.xcassets */; };
+		6AD4ECB0198AFF9D00BFFAA6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD4ECAF198AFF9D00BFFAA6 /* XCTest.framework */; };
+		6AD4ECB1198AFF9D00BFFAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD4EC90198AFF9D00BFFAA6 /* Foundation.framework */; };
+		6AD4ECB2198AFF9D00BFFAA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD4EC94198AFF9D00BFFAA6 /* UIKit.framework */; };
+		6AD4ECBA198AFF9D00BFFAA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AD4ECB8198AFF9D00BFFAA6 /* InfoPlist.strings */; };
+		6AD4ECBC198AFF9D00BFFAA6 /* CigarNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4ECBB198AFF9D00BFFAA6 /* CigarNotesTests.m */; };
+		6AD4ECC7198B063F00BFFAA6 /* CigarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4ECC6198B063F00BFFAA6 /* CigarTableViewController.m */; };
+		6AD4ECCA198B08D000BFFAA6 /* CigarNoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4ECC9198B08D000BFFAA6 /* CigarNoteData.m */; };
+		6AD4ECCD198B10CA00BFFAA6 /* TextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4ECCC198B10CA00BFFAA6 /* TextFieldTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AD4ECB3198AFF9D00BFFAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AD4EC85198AFF9D00BFFAA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AD4EC8C198AFF9D00BFFAA6;
+			remoteInfo = CigarNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A1518711990733500F0CBCE /* FiveStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FiveStarView.h; path = CigarNotes/FiveStarView.h; sourceTree = "<group>"; };
+		6A1518721990733500F0CBCE /* FiveStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FiveStarView.m; path = CigarNotes/FiveStarView.m; sourceTree = "<group>"; };
+		6A1518731990733500F0CBCE /* StarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarButton.h; path = CigarNotes/StarButton.h; sourceTree = "<group>"; };
+		6A1518741990733500F0CBCE /* StarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StarButton.m; path = CigarNotes/StarButton.m; sourceTree = "<group>"; };
+		6AAD7D501991466800A10EB2 /* ScoreTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTextField.h; sourceTree = "<group>"; };
+		6AAD7D511991466800A10EB2 /* ScoreTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTextField.m; sourceTree = "<group>"; };
+		6ABAA8F81990108400C5AF57 /* CigarNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CigarNoteViewController.h; path = CigarNotes/CigarNoteViewController.h; sourceTree = "<group>"; };
+		6ABAA8F91990108400C5AF57 /* CigarNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CigarNoteViewController.m; path = CigarNotes/CigarNoteViewController.m; sourceTree = "<group>"; };
+		6ABAA8FB1990225B00C5AF57 /* InfoLabelField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoLabelField.h; path = CigarNotes/InfoLabelField.h; sourceTree = "<group>"; };
+		6ABAA8FC1990225B00C5AF57 /* InfoLabelField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoLabelField.m; path = CigarNotes/InfoLabelField.m; sourceTree = "<group>"; };
+		6AD4EC8D198AFF9D00BFFAA6 /* CigarNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CigarNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD4EC90198AFF9D00BFFAA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AD4EC92198AFF9D00BFFAA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AD4EC94198AFF9D00BFFAA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AD4EC98198AFF9D00BFFAA6 /* CigarNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CigarNotes-Info.plist"; sourceTree = "<group>"; };
+		6AD4EC9A198AFF9D00BFFAA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AD4EC9C198AFF9D00BFFAA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AD4EC9E198AFF9D00BFFAA6 /* CigarNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CigarNotes-Prefix.pch"; sourceTree = "<group>"; };
+		6AD4EC9F198AFF9D00BFFAA6 /* CigarNoteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CigarNoteAppDelegate.h; sourceTree = "<group>"; };
+		6AD4ECA0198AFF9D00BFFAA6 /* CigarNoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CigarNoteAppDelegate.m; sourceTree = "<group>"; };
+		6AD4ECA3198AFF9D00BFFAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AD4ECA8198AFF9D00BFFAA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6AD4ECAE198AFF9D00BFFAA6 /* CigarNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CigarNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD4ECAF198AFF9D00BFFAA6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6AD4ECB7198AFF9D00BFFAA6 /* CigarNotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CigarNotesTests-Info.plist"; sourceTree = "<group>"; };
+		6AD4ECB9198AFF9D00BFFAA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AD4ECBB198AFF9D00BFFAA6 /* CigarNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CigarNotesTests.m; sourceTree = "<group>"; };
+		6AD4ECC5198B063F00BFFAA6 /* CigarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CigarTableViewController.h; sourceTree = "<group>"; };
+		6AD4ECC6198B063F00BFFAA6 /* CigarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CigarTableViewController.m; sourceTree = "<group>"; };
+		6AD4ECC8198B08D000BFFAA6 /* CigarNoteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CigarNoteData.h; sourceTree = "<group>"; };
+		6AD4ECC9198B08D000BFFAA6 /* CigarNoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CigarNoteData.m; sourceTree = "<group>"; };
+		6AD4ECCB198B10CA00BFFAA6 /* TextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldTableViewCell.h; sourceTree = "<group>"; };
+		6AD4ECCC198B10CA00BFFAA6 /* TextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD4EC8A198AFF9D00BFFAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD4EC93198AFF9D00BFFAA6 /* CoreGraphics.framework in Frameworks */,
+				6AD4EC95198AFF9D00BFFAA6 /* UIKit.framework in Frameworks */,
+				6AD4EC91198AFF9D00BFFAA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD4ECAB198AFF9D00BFFAA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD4ECB0198AFF9D00BFFAA6 /* XCTest.framework in Frameworks */,
+				6AD4ECB2198AFF9D00BFFAA6 /* UIKit.framework in Frameworks */,
+				6AD4ECB1198AFF9D00BFFAA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A15186F1990723D00F0CBCE /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4ECCB198B10CA00BFFAA6 /* TextFieldTableViewCell.h */,
+				6AD4ECCC198B10CA00BFFAA6 /* TextFieldTableViewCell.m */,
+				6AD4ECC5198B063F00BFFAA6 /* CigarTableViewController.h */,
+				6AD4ECC6198B063F00BFFAA6 /* CigarTableViewController.m */,
+			);
+			name = "Table View";
+			sourceTree = "<group>";
+		};
+		6A1518701990725F00F0CBCE /* Note View */ = {
+			isa = PBXGroup;
+			children = (
+				6A1518711990733500F0CBCE /* FiveStarView.h */,
+				6A1518721990733500F0CBCE /* FiveStarView.m */,
+				6A1518731990733500F0CBCE /* StarButton.h */,
+				6A1518741990733500F0CBCE /* StarButton.m */,
+				6ABAA8FB1990225B00C5AF57 /* InfoLabelField.h */,
+				6ABAA8FC1990225B00C5AF57 /* InfoLabelField.m */,
+				6ABAA8F81990108400C5AF57 /* CigarNoteViewController.h */,
+				6ABAA8F91990108400C5AF57 /* CigarNoteViewController.m */,
+				6AAD7D501991466800A10EB2 /* ScoreTextField.h */,
+				6AAD7D511991466800A10EB2 /* ScoreTextField.m */,
+			);
+			name = "Note View";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6AD4EC84198AFF9D00BFFAA6 = {
+			isa = PBXGroup;
+			children = (
+				6AD4EC96198AFF9D00BFFAA6 /* CigarNotes */,
+				6AD4ECB5198AFF9D00BFFAA6 /* CigarNotesTests */,
+				6AD4EC8F198AFF9D00BFFAA6 /* Frameworks */,
+				6AD4EC8E198AFF9D00BFFAA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD4EC8E198AFF9D00BFFAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4EC8D198AFF9D00BFFAA6 /* CigarNotes.app */,
+				6AD4ECAE198AFF9D00BFFAA6 /* CigarNotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD4EC8F198AFF9D00BFFAA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4EC90198AFF9D00BFFAA6 /* Foundation.framework */,
+				6AD4EC92198AFF9D00BFFAA6 /* CoreGraphics.framework */,
+				6AD4EC94198AFF9D00BFFAA6 /* UIKit.framework */,
+				6AD4ECAF198AFF9D00BFFAA6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AD4EC96198AFF9D00BFFAA6 /* CigarNotes */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4EC9F198AFF9D00BFFAA6 /* CigarNoteAppDelegate.h */,
+				6AD4ECA0198AFF9D00BFFAA6 /* CigarNoteAppDelegate.m */,
+				6A1518701990725F00F0CBCE /* Note View */,
+				6A15186F1990723D00F0CBCE /* Table View */,
+				6AD4ECC8198B08D000BFFAA6 /* CigarNoteData.h */,
+				6AD4ECC9198B08D000BFFAA6 /* CigarNoteData.m */,
+				6AD4ECA2198AFF9D00BFFAA6 /* Main.storyboard */,
+				6AD4ECA8198AFF9D00BFFAA6 /* Images.xcassets */,
+				6AD4EC97198AFF9D00BFFAA6 /* Supporting Files */,
+			);
+			path = CigarNotes;
+			sourceTree = "<group>";
+		};
+		6AD4EC97198AFF9D00BFFAA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4EC98198AFF9D00BFFAA6 /* CigarNotes-Info.plist */,
+				6AD4EC99198AFF9D00BFFAA6 /* InfoPlist.strings */,
+				6AD4EC9C198AFF9D00BFFAA6 /* main.m */,
+				6AD4EC9E198AFF9D00BFFAA6 /* CigarNotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AD4ECB5198AFF9D00BFFAA6 /* CigarNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4ECBB198AFF9D00BFFAA6 /* CigarNotesTests.m */,
+				6AD4ECB6198AFF9D00BFFAA6 /* Supporting Files */,
+			);
+			path = CigarNotesTests;
+			sourceTree = "<group>";
+		};
+		6AD4ECB6198AFF9D00BFFAA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD4ECB7198AFF9D00BFFAA6 /* CigarNotesTests-Info.plist */,
+				6AD4ECB8198AFF9D00BFFAA6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD4EC8C198AFF9D00BFFAA6 /* CigarNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD4ECBF198AFF9D00BFFAA6 /* Build configuration list for PBXNativeTarget "CigarNotes" */;
+			buildPhases = (
+				6AD4EC89198AFF9D00BFFAA6 /* Sources */,
+				6AD4EC8A198AFF9D00BFFAA6 /* Frameworks */,
+				6AD4EC8B198AFF9D00BFFAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CigarNotes;
+			productName = CigarNotes;
+			productReference = 6AD4EC8D198AFF9D00BFFAA6 /* CigarNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AD4ECAD198AFF9D00BFFAA6 /* CigarNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD4ECC2198AFF9D00BFFAA6 /* Build configuration list for PBXNativeTarget "CigarNotesTests" */;
+			buildPhases = (
+				6AD4ECAA198AFF9D00BFFAA6 /* Sources */,
+				6AD4ECAB198AFF9D00BFFAA6 /* Frameworks */,
+				6AD4ECAC198AFF9D00BFFAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD4ECB4198AFF9D00BFFAA6 /* PBXTargetDependency */,
+			);
+			name = CigarNotesTests;
+			productName = CigarNotesTests;
+			productReference = 6AD4ECAE198AFF9D00BFFAA6 /* CigarNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD4EC85198AFF9D00BFFAA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CigarNote;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nick Newberg";
+				TargetAttributes = {
+					6AD4EC8C198AFF9D00BFFAA6 = {
+						DevelopmentTeam = BE5BL4S3MD;
+					};
+					6AD4ECAD198AFF9D00BFFAA6 = {
+						TestTargetID = 6AD4EC8C198AFF9D00BFFAA6;
+					};
+				};
+			};
+			buildConfigurationList = 6AD4EC88198AFF9D00BFFAA6 /* Build configuration list for PBXProject "CigarNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD4EC84198AFF9D00BFFAA6;
+			productRefGroup = 6AD4EC8E198AFF9D00BFFAA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD4EC8C198AFF9D00BFFAA6 /* CigarNotes */,
+				6AD4ECAD198AFF9D00BFFAA6 /* CigarNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD4EC8B198AFF9D00BFFAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD4ECA9198AFF9D00BFFAA6 /* Images.xcassets in Resources */,
+				6AD4EC9B198AFF9D00BFFAA6 /* InfoPlist.strings in Resources */,
+				6AD4ECA4198AFF9D00BFFAA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD4ECAC198AFF9D00BFFAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD4ECBA198AFF9D00BFFAA6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD4EC89198AFF9D00BFFAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1518761990733500F0CBCE /* StarButton.m in Sources */,
+				6A1518751990733500F0CBCE /* FiveStarView.m in Sources */,
+				6AD4ECCA198B08D000BFFAA6 /* CigarNoteData.m in Sources */,
+				6AD4EC9D198AFF9D00BFFAA6 /* main.m in Sources */,
+				6AAD7D521991466800A10EB2 /* ScoreTextField.m in Sources */,
+				6ABAA8FD1990225B00C5AF57 /* InfoLabelField.m in Sources */,
+				6AD4ECC7198B063F00BFFAA6 /* CigarTableViewController.m in Sources */,
+				6ABAA8FA1990108400C5AF57 /* CigarNoteViewController.m in Sources */,
+				6AD4ECA1198AFF9D00BFFAA6 /* CigarNoteAppDelegate.m in Sources */,
+				6AD4ECCD198B10CA00BFFAA6 /* TextFieldTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD4ECAA198AFF9D00BFFAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD4ECBC198AFF9D00BFFAA6 /* CigarNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AD4ECB4198AFF9D00BFFAA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AD4EC8C198AFF9D00BFFAA6 /* CigarNotes */;
+			targetProxy = 6AD4ECB3198AFF9D00BFFAA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AD4EC99198AFF9D00BFFAA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD4EC9A198AFF9D00BFFAA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AD4ECA2198AFF9D00BFFAA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD4ECA3198AFF9D00BFFAA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AD4ECB8198AFF9D00BFFAA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD4ECB9198AFF9D00BFFAA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AD4ECBD198AFF9D00BFFAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AD4ECBE198AFF9D00BFFAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD4ECC0198AFF9D00BFFAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CigarNotes/CigarNotes-Prefix.pch";
+				INFOPLIST_FILE = "CigarNotes/CigarNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AD4ECC1198AFF9D00BFFAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CigarNotes/CigarNotes-Prefix.pch";
+				INFOPLIST_FILE = "CigarNotes/CigarNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6AD4ECC3198AFF9D00BFFAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CigarNotes.app/CigarNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CigarNotes/CigarNotes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CigarNotesTests/CigarNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6AD4ECC4198AFF9D00BFFAA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CigarNotes.app/CigarNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CigarNotes/CigarNotes-Prefix.pch";
+				INFOPLIST_FILE = "CigarNotesTests/CigarNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD4EC88198AFF9D00BFFAA6 /* Build configuration list for PBXProject "CigarNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD4ECBD198AFF9D00BFFAA6 /* Debug */,
+				6AD4ECBE198AFF9D00BFFAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD4ECBF198AFF9D00BFFAA6 /* Build configuration list for PBXNativeTarget "CigarNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD4ECC0198AFF9D00BFFAA6 /* Debug */,
+				6AD4ECC1198AFF9D00BFFAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD4ECC2198AFF9D00BFFAA6 /* Build configuration list for PBXNativeTarget "CigarNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD4ECC3198AFF9D00BFFAA6 /* Debug */,
+				6AD4ECC4198AFF9D00BFFAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AD4EC85198AFF9D00BFFAA6 /* Project object */;
+}
